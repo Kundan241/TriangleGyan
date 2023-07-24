@@ -59,7 +59,7 @@ nav li a:hover {
 
 
 
-.container {
+main {
     display: inherit;
     margin: auto;
     max-width: 600px;
@@ -140,7 +140,7 @@ h2,h3{
 }
 
        /* Output Area CSS */
-       #outputQuiz {
+       #outputQuiz ,#outputAreaTriangle ,#outputHypotenuse ,#output{
         margin-top: 30px;
         padding: 20px;
         border-radius: 5px;
