@@ -93,8 +93,10 @@ p {
 
 label {
     display: block;
+    
     cursor: pointer;
 }
+
 
 input[type="radio"] {
     margin-right: 5px;
@@ -109,13 +111,23 @@ button {
     display: block;
     margin: 0 auto;
     font-size: 1.2rem;
-    padding: 10px 20px;
+    padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
     background-color:var(--primary-color);
     color: #fff;
     cursor: pointer;
     animation: bounce 1s infinite;
+}
+
+#btn-hypotenuse,#btn-area,#btn-isTriangle{
+    margin-top:1rem ;
+}
+
+
+
+h2,h3{
+    text-align: center;
 }
 
 @keyframes bounce {
@@ -153,7 +165,8 @@ button {
 
 
     footer {
-        display: block;
+        display:block;
+        
 
         background-color: var(--secondBackground-color);
         padding: 10px;
@@ -173,6 +186,11 @@ button {
         display: flex;
         justify-content: center;
     }
+
+
+
+    
+
     
     footer li {
         margin: 0 5px;
@@ -190,14 +208,22 @@ button {
         nav  {
             font-size: 5px ;
             padding: 0.5px 1px;
+
+            justify-content:none;
+            padding: 2rem;
+  
             }
 
             nav li a{
-                font-size: 0.45rem;
+
+                font-size: 0.60rem;
                 padding-left: 1px;
+
             }
+           
             nav h1{
-                font-size: 0.70rem;
+                font-size: 0.90rem;
+                margin-right: 0.5rem;
             }
         
     }
